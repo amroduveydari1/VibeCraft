@@ -70,10 +70,19 @@ const App: React.FC = () => {
     <div className="min-h-screen flex flex-col transition-all duration-300">
       <header className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-100 px-4 md:px-8 py-4 flex flex-wrap justify-between items-center gap-4">
         <div 
-          className="text-xl md:text-2xl font-serif font-bold tracking-tight cursor-pointer"
+          className="flex items-center gap-2.5 cursor-pointer"
           onClick={handleReset}
         >
-          VibeCraft
+          <svg width="32" height="32" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="512" height="512" rx="96" fill="#121212"/>
+            <path d="M256 72L440 256L256 440L72 256L256 72Z" stroke="rgba(255,255,255,0.12)" strokeWidth="8" fill="none"/>
+            <path d="M256 136L384 256L256 376L128 256L256 136Z" stroke="rgba(255,255,255,0.06)" strokeWidth="4" fill="none"/>
+            <path d="M176 192L256 368L336 192" stroke="white" strokeWidth="14" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+            <circle cx="256" cy="160" r="8" fill="white" opacity="0.6"/>
+          </svg>
+          <span className="text-xl md:text-2xl font-serif font-bold tracking-tight">
+            Vibe<span className="font-normal italic text-black/40">Craft</span>
+          </span>
         </div>
         
         <div className="flex items-center gap-4 md:gap-8">

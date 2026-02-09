@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 48" fill="none">
+  <!-- V icon mark -->
+  <g>
+    <!-- Outer diamond/prism shape -->
+    <path d="M24 4L44 24L24 44L4 24L24 4Z" stroke="#121212" stroke-width="1.5" fill="none"/>
+    <!-- Inner V craft mark -->
+    <path d="M14 16L24 34L34 16" stroke="#121212" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Accent dot -->
+    <circle cx="24" cy="14" r="1.5" fill="#121212"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="56" y="33" font-family="'Playfair Display', 'Georgia', serif" font-size="28" font-weight="700" fill="#121212" letter-spacing="-0.02em">
+    Vibe<tspan font-weight="400" font-style="italic" fill="#121212" opacity="0.45">Craft</tspan>
+  </text>
+  <!-- Tagline -->
+  <text x="57" y="44" font-family="'Inter', 'Helvetica', sans-serif" font-size="7" font-weight="600" fill="#121212" opacity="0.3" letter-spacing="0.35em" text-transform="uppercase">
+    PROMPT ARCHITECT
+  </text>
+</svg>
