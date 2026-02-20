@@ -29,7 +29,7 @@ const initialChoices: UserChoice = {
 
 const App: React.FC = () => {
   const [state, setState] = useState<AppState>(AppState.LANDING);
-  const [lang, setLang] = useState<Language>('ar');
+  const [lang, setLang] = useState<Language>('en');
   const [choices, setChoices] = useState<UserChoice>(initialChoices);
   const [currentResult, setCurrentResult] = useState<GeneratedPrompt | null>(null);
   const [library, setLibrary] = useState<GeneratedPrompt[]>([]);

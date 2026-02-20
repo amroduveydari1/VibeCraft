@@ -50,6 +50,16 @@
 				"$tsc"
 			],
 			"group": "build"
+		},
+		{
+			"label": "Run Vite Dev Server",
+			"type": "shell",
+			"command": "npm run dev",
+			"isBackground": true,
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "build"
 		}
 	]
 }
